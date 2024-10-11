@@ -419,3 +419,11 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+
+function calcalate_sum($firstArg, $secondArg) {
+	if (is_numeric($firstArg) && is_numeric($secondArg) {
+	    return $firstArg + $secondArg;
+	}
+	return 0;
+}
